@@ -1,3 +1,6 @@
 body{
     background-color: #ff9fb5;
 }
+nav ul{
+    display: flex;
+}
