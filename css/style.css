@@ -19,3 +19,8 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
