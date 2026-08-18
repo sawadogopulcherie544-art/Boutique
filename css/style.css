@@ -16,11 +16,22 @@ nav a{
 header{
     background-color: #a0233d;
     display: flex;
+    padding: 10px 30px;
     justify-content: space-between;
     align-items: center;
 }
 header img{
     width: 100px;
-    height: 100px;
-    border-radius: 50%;
+}
+.section1{
+    text-align: center;
+    padding: 80px 20px;
+}
+.section1 h1{
+    font-size: 48px;
+    color: #a0233d;
+}
+.section1 p{
+    font-size: 24px;
+    color: white;
 }
