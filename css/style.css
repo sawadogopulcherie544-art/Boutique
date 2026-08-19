@@ -1,5 +1,6 @@
 body{
-    background-color: #ff9fb5;
+    background-color: #ffa29d;
+    margin: 0;
 }
 nav ul{
     display: flex;
@@ -10,11 +11,11 @@ nav ul{
 }
 nav a{
     text-decoration: none;
-    color: #f5d8a0;
+    color: #e5c48d;
     font-size: 32px;
 }
 header{
-    background-color: #a0233d;
+    background-color: #5c0101;
     display: flex;
     padding: 10px 30px;
     justify-content: space-between;
@@ -29,9 +30,12 @@ header img{
 }
 .section1 h1{
     font-size: 48px;
-    color: #a0233d;
+    color: #5c0101;
 }
 .section1 p{
     font-size: 24px;
-    color: white;
+    color: #b91d2d;
+}
+.douceur{
+
 }
