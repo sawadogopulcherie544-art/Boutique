@@ -36,6 +36,7 @@ header img{
     font-size: 24px;
     color: #b91d2d;
 }
-.douceur{
-
+.douceur-item{
+    display: flex;
+    flex-wrap: wrap;
 }
