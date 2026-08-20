@@ -37,7 +37,6 @@ header img{
     color: #b91d2d;
 }
 .douceur-item{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 48px;
