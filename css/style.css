@@ -33,10 +33,14 @@ header img{
     color: #5c0101;
 }
 .section1 p{
-    font-size: 24px;
+    font-size: 20px;
     color: #b91d2d;
 }
 .douceur-item{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    gap: 48px;
+    padding: 20px 80px;
+    background-color: #b91d2d;
 }
