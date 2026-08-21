@@ -1,5 +1,5 @@
 body{
-    background-color: #ffa29d;
+    background-color: #FBF4B0;
     margin: 0;
 }
 nav ul{
@@ -11,7 +11,7 @@ nav ul{
 }
 nav a{
     text-decoration: none;
-    color: #e5c48d;
+    color: #FBF4B0;
     font-size: 32px;
 }
 header{
@@ -30,16 +30,26 @@ header img{
 }
 .section1 h1{
     font-size: 48px;
-    color: #5c0101;
+    color: #b91d2d;
 }
 .section1 p{
     font-size: 20px;
-    color: #b91d2d;
+    color: #5c0101;
 }
 .douceur-item{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 48px;
     padding: 20px 80px;
-    background-color: #b91d2d;
+    background-color: #ffa29d;
+}
+.card{
+    width: 240px;
+    background-color: #FBF4B0;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #5c0101;
 }
