@@ -122,10 +122,11 @@ header img{
     text-align: center;
 }
 .temoignage-card{
+    display: flex;
     border: 2px solid #E5C48D;
     background-color: #FBF4B0;
     border-radius: 24px;
-    width: 240px;
+    width: 500px;
 }
 .temoignage-item{
     display: flex;
@@ -134,7 +135,7 @@ header img{
     justify-content: center;
     text-align: center;
 }
-article img{
+.temoignage-card img{
     width: 240px;
     height: 240px;
     border-radius: 24px;
