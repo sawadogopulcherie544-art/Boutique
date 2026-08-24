@@ -123,6 +123,8 @@ header img{
 }
 .temoignage-card{
     display: flex;
+    align-items: center;
+    gap: 20px;
     border: 2px solid #E5C48D;
     background-color: #FBF4B0;
     border-radius: 24px;
@@ -131,7 +133,7 @@ header img{
 .temoignage-item{
     display: flex;
     gap: 48px;
-    padding: 20px;
+    padding: 24px;
     justify-content: center;
     text-align: center;
 }
