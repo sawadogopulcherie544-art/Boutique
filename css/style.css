@@ -128,7 +128,7 @@ header img{
     border: 2px solid #E5C48D;
     background-color: #FBF4B0;
     border-radius: 24px;
-    width: 500px;
+    width: 580px;
 }
 .temoignage-item{
     display: flex;
@@ -138,9 +138,9 @@ header img{
     text-align: center;
 }
 .temoignage-card img{
-    width: 240px;
-    height: 240px;
-    border-radius: 24px;
+    width: 280px;
+    height: 200px;
+    border-radius: 50%;
 }
 .temoignage-item h3{
     font-size: 24px;
