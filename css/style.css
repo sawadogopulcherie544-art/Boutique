@@ -130,6 +130,10 @@ header img{
     border-radius: 24px;
     width: 580px;
 }
+.temoignage-text{
+    display: flex;
+    flex-direction: column;
+}
 .temoignage-item{
     display: flex;
     gap: 48px;
