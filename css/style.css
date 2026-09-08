@@ -28,8 +28,11 @@ header img{
     width: 180px;
 }
 .section1{
+    background-image: url('../images/FONTSTYLE.jpg');
+    background-size: cover;
+    background-position: center;
     text-align: center;
-    padding: 80px 20px;
+    padding: 180px 20px;
 }
 .section1 h1{
     font-size: 48px;
@@ -38,6 +41,7 @@ header img{
 .section1 p{
     font-size: 20px;
     color: #5c0101;
+    margin-top: 36px;
 }
 
 /*Section 1 : Douceurs*/
@@ -53,7 +57,7 @@ header img{
     width: 240px;
     background-color: #FBF4B0;
     padding: 24px;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: 20px;
     text-align: center;
     color: #5c0101;
@@ -72,6 +76,7 @@ header img{
 .douceur h2{
     font-size: 40px;
     color: #5c0101;
+    margin-bottom: 48px;
 }
 .link{
     border: 2px solid #5c0101;
@@ -79,7 +84,7 @@ header img{
     background-color: #5c0101;
     padding: 16px 24px;
     width: 240px;
-    margin: auto;
+    margin: 40px auto;
 }
 .douceur a{
     text-decoration: none;
@@ -111,6 +116,7 @@ header img{
     border-radius: 24px;
     padding: 16px 32px;
     width: 160px;
+    gap: 8px;
 }
 .card2 a{
     text-decoration: none;
@@ -166,4 +172,12 @@ header img{
     font-size: 20px;
     color: #5c0101;
     margin: 8px;
+}
+@media (max-width: 768px){
+    .menu-toggle{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
 }
