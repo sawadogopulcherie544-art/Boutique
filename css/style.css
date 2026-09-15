@@ -175,6 +175,12 @@ header img{
     color: #6F4426;
     margin: 8px;
 }
+footer{
+    display: flex;
+    color: #EDD9B8;
+    justify-content: space-around;
+    padding: 80px 20px;
+}
 @media (max-width: 768px){
     .menu-toggle{
         display: block;
