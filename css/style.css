@@ -216,6 +216,12 @@ footer div{
     .menu-toggle{
         display: block;
         margin-left: auto;
+        background-color: #6F4426;
+        color: #EDD9B8;
+        font-size: 36px;
+        border: none;
+        padding: 8px 12px;
+
     }
     nav ul{
         display: none;
