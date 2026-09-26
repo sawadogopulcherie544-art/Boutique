@@ -2,6 +2,9 @@ body{
     background-color: #EDD9B8;
     margin: 0;
 }
+
+/*Header*/
+
 .menu-toggle{
     display: none;
 }
@@ -27,6 +30,10 @@ header{
 header img{
     width: 160px;
 }
+
+/*Index*/
+
+/*Section 1 : Accueil*/
 .section1{
     background-image: url('../images/Fond.jpeg');
     background-size: 100% 100%;
@@ -43,7 +50,7 @@ header img{
     margin-top: 36px;
 }
 
-/*Section 1 : Douceurs*/
+/*Section 2 : Douceurs*/
 
 .douceur-item{
     display: flex;
@@ -91,7 +98,7 @@ header img{
     font-size: 24px;
 }
 
-/*Section 2 : Services*/
+/*Section 3 : Services*/
 
 .service
 {
@@ -124,7 +131,7 @@ header img{
     font-size: 20px;
 }
 
-/*Section 3 : Temoignages*/
+/*Section 4 : Temoignages*/
 
 .temoignage{
     background-color: #6F4426;
@@ -237,4 +244,129 @@ footer div{
     header img{
         width: 80px;
     }
+}
+
+/*Produits*/
+
+/*Section 1 : Recherche*/
+
+.search-section{
+    padding: 40px;
+}
+.search-section h1{
+    text-align: center;
+    font-size: 40px;
+    color: #D6577A;
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.search-bar input{
+    width: 400px;
+    border: 3px solid #D6577A;
+    border-radius: 8px;
+    background-color:#E5C48D;
+    font-size: 18px;
+    color: #6F4426;
+    padding: 8px;
+}
+.search-bar button{
+    border: none;
+    font-size: 24px;
+    background-color: #EDD9B8;
+    padding: 8px 16px;
+}
+
+/*Section 2 : Produits*/
+.produit1-container{
+    background-color: #6F4426;
+    padding: 20px;
+}
+.produit2-container{
+    background-color: #EDD9B8;
+    padding: 20px;
+}
+.produit1-container h2{
+    text-align: center;
+    font-size: 40px;
+    color: #EDD9B8;
+    margin-bottom: 48px;
+}
+.produit2-container h2{
+    text-align: center;
+    font-size: 40px;
+    color: #D6577A;
+    margin-bottom: 48px;
+}
+.produit-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+    padding: 16px;
+}
+.produit-items img{
+    width: 240px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.produit-card1{
+    width: 240px;
+    background-color: #EDD9B8;
+    padding: 18px;
+    border-radius: 20px;
+    text-align: center;
+}
+.produit-card2{
+    width: 240px;
+    background-color: #6F4426;
+    padding: 18px;
+    border-radius: 20px;
+    text-align: center;
+}
+.produit-card1 h3{
+    font-size: 24px;
+    color: #D6577A;
+}
+.produit-card2 h3{
+    font-size: 24px;
+    color: #EDD9B8;
+}
+.produit-card1 .produit-description{
+    font-size: 20px;
+    color: #6F4426;
+}
+.produit-card2 .produit-description{
+    font-size: 20px;
+    color: #D6577A;
+}
+.produit-card1 .produit-prix{
+    font-size: 20px;
+    color: #E5C48D;
+    background-color: #6F4426;
+    border: 2px solid #6F4426;
+    border-radius: 8px;
+}
+.produit-card2 .produit-prix{
+    font-size: 20px;
+    color: #EDD9B8;
+    background-color: #D6577A;
+    border: 2px solid #D6577A;
+    border-radius: 8px;
+}
+.commentaire{
+    background-color: #6F4426;
+    padding: 40px;
+    text-align: center;
+}
+.commentaire h2{
+    font-size: 40px;
+    color: #EDD9B8;
+}
+.commentaire p{
+    font-size: 24px;
+    color: #EDD9B8;
 }
