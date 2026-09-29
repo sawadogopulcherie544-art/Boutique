@@ -286,78 +286,78 @@ footer div{
 /*Section 2 : Produits*/
 .produit1-container{
     background-color: #6F4426;
-    padding: 20px;
+    padding: 16px;
 }
 .produit2-container{
     background-color: #EDD9B8;
-    padding: 20px;
+    padding: 16px;
 }
 .produit1-container h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
     color: #EDD9B8;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
 }
 .produit2-container h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
     color: #D6577A;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
 }
 .produit-items{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 48px;
-    padding: 16px;
+    gap: 36px;
+    padding: 12px;
 }
 .produit-items img{
-    width: 220px;
-    height: 160px;
+    width: 200px;
+    height: 140px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 16px;
 }
 .produit-card1{
-    width: 220px;
+    width: 200px;
     background-color: #EDD9B8;
-    padding: 18px;
-    border-radius: 20px;
+    padding: 12px;
+    border-radius: 16px;
     text-align: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .produit-card2{
-    width: 220px;
+    width: 200px;
     background-color: #6F4426;
-    padding: 18px;
-    border-radius: 20px;
+    padding: 12px;
+    border-radius: 16px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 .produit-card1 h3{
-    font-size: 24px;
+    font-size: 20px;
     color: #D6577A;
 }
 .produit-card2 h3{
-    font-size: 24px;
+    font-size: 20px;
     color: #EDD9B8;
 }
 .produit-card1 .produit-description{
-    font-size: 20px;
+    font-size: 16px;
     color: #6F4426;
 }
 .produit-card2 .produit-description{
-    font-size: 20px;
+    font-size: 16px;
     color: #D6577A;
 }
 .produit-card1 .produit-prix{
-    font-size: 20px;
+    font-size: 16px;
     color: #E5C48D;
     background-color: #6F4426;
     border: 2px solid #6F4426;
     border-radius: 8px;
 }
 .produit-card2 .produit-prix{
-    font-size: 20px;
+    font-size: 16px;
     color: #EDD9B8;
     background-color: #D6577A;
     border: 2px solid #D6577A;
