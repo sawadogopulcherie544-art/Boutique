@@ -349,14 +349,14 @@ footer div{
     font-size: 16px;
     color: #D6577A;
 }
-.produit-card1 .produit-prix{
+.produit-card1 .produit-commande{
     font-size: 16px;
     color: #E5C48D;
     background-color: #6F4426;
     border: 2px solid #6F4426;
     border-radius: 8px;
 }
-.produit-card2 .produit-prix{
+.produit-card2 .produit-commande{
     font-size: 16px;
     color: #EDD9B8;
     background-color: #D6577A;
@@ -375,4 +375,4 @@ footer div{
 .commentaire p{
     font-size: 24px;
     color: #EDD9B8;
-}
+}*/
