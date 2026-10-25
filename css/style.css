@@ -374,5 +374,120 @@ footer div{
 }
 .commentaire p{
     font-size: 24px;
+    color: #E5C48D;
+}
+
+/*Panier.html*/
+.first-section{
+    padding: 40px 20px;
+}
+.first-section h1{
+    font-size: 40px;
+    color: #D6577A; 
+    text-align: center; 
+    padding: 40px;
+}
+.panier{
+    padding: 40px 20px;
+    background-color: #6F4426;
+}
+.panier h2{
+    font-size: 36px;
     color: #EDD9B8;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.panier-container{
+    padding: 16px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.panier-produit{
+    padding: 16px;
+    border-radius: 16px;
+    width: 300px;
+    text-align: center;
+}
+.panier-produit img{
+    width: 300px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 2px solid #EDD9B8;
+}
+.panier-produit-info h3{
+    font-size: 24px;
+    color: #EDD9B8;
+}
+.panier-produit-info .quantity{
+    font-size: 20px;
+    color: #D6577A ;
+    font-weight: bold;
+    border-bottom: 1px solid #EDD9B8;
+}
+.panier-produit-info .price{
+    background-color: #EDD9B8;
+    padding: 8px;
+    font-size: 20px;
+    color: #6F4426;
+    border : 2px solid #EDD9B8;
+    border-radius: 8px;
+}
+.panier-total button{
+    font-size: 20px;
+    color: #EDD9B8;
+    background-color: #D6577A;
+    border: 2px solid #D6577A;
+    border-radius: 8px;
+    padding: 12px 24px;
+}
+.recapitulatif{
+    padding: 40px 20px;
+    text-align: center;
+}
+.recapitulatif h2{
+    font-size: 36px;
+    color: #D6577A;
+    margin-bottom: 40px;
+}
+.recapitulatif p{
+    background-color: #6F4426;
+    color: #EDD9B8;
+    padding: 16px;
+    border: 2px solid #E5C48D;
+    border-radius: 12px;
+    width: 50%;
+    justify-self: center;
+    font-size: 30px;
+}
+.recapitulatif-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.recapitulatif-container button{
+    background-color: #D6577A;
+    font-size: 24px;
+    border: 2px dashed #E5C48D;
+    border-radius: 8px;
+    color: #E5C48D;
+    padding: 12px;
+}
+.Remerciements{
+    background-color: #6F4426;
+    padding: 40px 20p;
+    text-align: center;
+}
+.Remerciements h2{
+    font-size: 36px;
+    color: #EDD9B8;
+    padding-top: 40px;
+}
+.Remerciements p{
+    font-size: 24px;
+    color: #E5C48D;
+    padding : 40px;
 }
