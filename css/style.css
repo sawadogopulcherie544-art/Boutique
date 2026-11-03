@@ -45,7 +45,7 @@ header img{
     color: #D6577A;
 }
 .section1 p{
-    font-size: 20px;
+    font-size: 24px;
     color: #6F4426;
     margin-top: 36px;
 }
@@ -201,11 +201,12 @@ footer a{
 footer a:hover{
     color: #D6577A;
 }
-footer h2, h3{
+footer h2 a, footer h3{
     color: #D6577A;
 }
-footer h2{
+footer h2 a{
     font-size: 28px;
+    text-wrap: nowrap;
 }
 footer h3{
     font-size: 20px;
@@ -285,10 +286,12 @@ footer div{
 
 /*Section 2 : Produits*/
 .produit1-container{
+    min-height: 700px;
     background-color: #6F4426;
     padding: 16px;
 }
 .produit2-container{
+    min-height: 700px;
     background-color: #EDD9B8;
     padding: 16px;
 }
@@ -312,13 +315,13 @@ footer div{
     padding: 12px;
 }
 .produit-items img{
-    width: 200px;
-    height: 140px;
+    width: 260px;
+    height: 240px;
     object-fit: cover;
     border-radius: 16px;
 }
 .produit-card1{
-    width: 200px;
+    width: 260px;
     background-color: #EDD9B8;
     padding: 12px;
     border-radius: 16px;
@@ -326,7 +329,7 @@ footer div{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .produit-card2{
-    width: 200px;
+    width: 260px;
     background-color: #6F4426;
     padding: 12px;
     border-radius: 16px;
@@ -334,30 +337,30 @@ footer div{
     text-align: center;
 }
 .produit-card1 h3{
-    font-size: 20px;
+    font-size: 24px;
     color: #D6577A;
 }
 .produit-card2 h3{
-    font-size: 20px;
+    font-size: 24px;
     color: #EDD9B8;
 }
 .produit-card1 .produit-description{
-    font-size: 16px;
+    font-size: 20px;
     color: #6F4426;
 }
 .produit-card2 .produit-description{
-    font-size: 16px;
+    font-size: 20px;
     color: #D6577A;
 }
 .produit-card1 .produit-commande{
-    font-size: 16px;
+    font-size: 20px;
     color: #E5C48D;
     background-color: #6F4426;
     border: 2px solid #6F4426;
     border-radius: 8px;
 }
 .produit-card2 .produit-commande{
-    font-size: 16px;
+    font-size: 20px;
     color: #EDD9B8;
     background-color: #D6577A;
     border: 2px solid #D6577A;
@@ -456,8 +459,8 @@ footer div{
     background-color: #6F4426;
     color: #EDD9B8;
     padding: 16px;
-    border: 2px solid #E5C48D;
-    border-radius: 12px;
+    border: solid #EDD9B8;;
+    border-radius: 20px;
     width: 50%;
     justify-self: center;
     font-size: 30px;
@@ -472,13 +475,13 @@ footer div{
     background-color: #D6577A;
     font-size: 24px;
     border: 2px dashed #E5C48D;
-    border-radius: 8px;
+    border-radius: 20px;
     color: #E5C48D;
     padding: 12px;
 }
 .Remerciements{
     background-color: #6F4426;
-    padding: 40px 20p;
+    padding: 40px 20px;
     text-align: center;
 }
 .Remerciements h2{
@@ -490,4 +493,28 @@ footer div{
     font-size: 24px;
     color: #E5C48D;
     padding : 40px;
+}
+.contact{
+    padding: 40px 20px;
+    text-align: center;
+}
+.contact h1{
+    font-size: 40px;
+    color: #D6577A;
+    margin-bottom: 40px;
+}
+.contact p{
+    font-size: 20px;
+    color: #6F4426;
+    margin-bottom: 40px;
+}
+.contact-form{
+    padding:  40px 20px;
+    background-color: #6F4426;
+}
+.contact-form h2{
+    font-size: 36px;
+    color: #EDD9B8;
+    margin-bottom: 40px;
+    text-align: center;
 }
