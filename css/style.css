@@ -471,13 +471,42 @@ footer div{
     gap: 20px;
     flex-wrap: wrap;
 }
-.recapitulatif-container button{
-    background-color: #D6577A;
-    font-size: 24px;
-    border: 2px dashed #E5C48D;
-    border-radius: 20px;
-    color: #E5C48D;
-    padding: 12px;
+.recapitulatif-container button {
+  position: relative;          /* nécessaire pour placer le reflet */
+  overflow: hidden;            /* garde le reflet dans le bouton */
+  padding: 14px 32px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: inherit;
+  color: #f8eed9;
+  border: none; 
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #EC8AA3, #D6577A 50%, #A63457);
+  box-shadow:
+    inset 0 -3px 6px rgba(0,0,0,.3),    /* ombre intérieure */
+    0 4px 8px rgba(166,52,87,.35);      /* ombre portée */
+  transition: transform .2s, filter .2s;
+}
+
+/* le reflet blanc en haut */
+.recapitulatif-container button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  border-radius: 30px 30px 50% 50% / 30px 30px 15px 15px;
+  background: linear-gradient(to bottom, rgba(255,255,255,.45), rgba(255,255,255,.05));
+  pointer-events: none;        /* le clic passe à travers le reflet */
+}
+
+/* quand on passe la souris */
+.recapitulatif-container button:hover {
+  filter: brightness(1.12);
+  transform: translateY(-2px);
 }
 .Remerciements{
     background-color: #6F4426;
@@ -494,6 +523,9 @@ footer div{
     color: #E5C48D;
     padding : 40px;
 }
+
+/*Contact.html*/
+
 .contact{
     padding: 40px 20px;
     text-align: center;
@@ -517,4 +549,77 @@ footer div{
     color: #EDD9B8;
     margin-bottom: 40px;
     text-align: center;
+}
+.contact-form form{
+    background-color: #EDD9B8;
+    padding: 30px 20px;
+    gap: 24px;
+    width: 35%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 2px solid #EDD9B8;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.form-group label{
+    font-size: 20px;
+    color: #D6577A;
+    font-weight: bold;
+}
+.form-group input, .form-group textarea, .form-group select{
+    padding: 4px;
+    font-size: 16px;
+    border: 2px solid #6F4426;
+    border-radius: 8px;
+    background-color: #f8eed9;
+    color: #6F4426;
+    font-family: inherit;
+}
+.form-group textarea{
+    resize: none;
+}
+.form-group select:invalid {
+  color: #7a7a7a;;
+}
+.form-group select option {
+  color: #6F4426;
+}
+.form-container button {
+  position: relative;      
+  overflow: hidden;            
+  padding: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: inherit;
+  color: #f8eed9;
+  border: none; 
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #EC8AA3, #D6577A 50%, #A63457);
+  box-shadow:
+    inset 0 -3px 6px rgba(0,0,0,.3),    
+    0 4px 8px rgba(166,52,87,.35);      
+  transition: transform .2s, filter .2s;
+}
+.form-container button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  border-radius: 30px 30px 50% 50% / 30px 30px 15px 15px;
+  background: linear-gradient(to bottom, rgba(255,255,255,.45), rgba(255,255,255,.05));
+  pointer-events: none;        
+}
+.form-container button:hover {
+  filter: brightness(1.12);
+  transform: translateY(-2px);
 }
