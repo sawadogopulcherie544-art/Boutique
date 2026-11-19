@@ -28,11 +28,11 @@ header{
     align-items: center;
 }
 nav a:hover{
-    color: #D6577A;
+    color: #E5C48D;
 }
 nav a.active{
     color: #D6577A;
-    border-bottom: 3px solid #D6577A;
+    border-bottom: 2px dashed #EDD9B8;
 }
 header img{
     width: 160px;
