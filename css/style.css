@@ -27,6 +27,13 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+nav a:hover{
+    color: #D6577A;
+}
+nav a.active{
+    color: #D6577A;
+    border-bottom: 3px solid #D6577A;
+}
 header img{
     width: 160px;
 }
